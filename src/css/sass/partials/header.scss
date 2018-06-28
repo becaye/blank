@@ -4,5 +4,5 @@
  */
 h1 {
   font-style: normal;
-  @include rem(10);
+  font-size: rem(10);
 }
