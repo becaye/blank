@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php include("header.php"); ?>
 
 	<main role="main" aria-label="Content">
 		<div class="wrapper">		
@@ -17,5 +17,5 @@
 	<aside class="wrapper">
 
 	</aside>
-
-<?php get_footer(); ?>
+	
+<?php include("footer.php"); ?>

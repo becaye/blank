@@ -19,14 +19,10 @@ var gulp = require( "gulp" ),
 	/** @type {Object of Array} CSS source files to concatenate and minify */
 	cssminSrc = {
 		development: [
-			/** The banner of `style.css` */
-			"src/css/banner.css",
 			/** Theme style */
 			"src/css/style.css"
 		],
 		production: [
-			/** The banner of `style.css` */
-			"src/css/banner.css",
 			/** Normalize */
 			"node_modules/normalize.css/normalize.css",
 			/** Theme style */
@@ -114,7 +110,7 @@ gulp.task( "template", function() {
 
     var is_debug = ( env === "production" ? "false" : "true" );
 
-    return gulp.src( "src/dev/is-debug.php" )
+    return gulp.src( "src/dev-templates/is-debug.php" )
         .pipe( $.template({ is_debug: is_debug }) )
         .pipe( gulp.dest( "src/modules" ) );
 });
