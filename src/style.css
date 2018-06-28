@@ -46,6 +46,10 @@
  * partials/header
  * ---
  */
+h1 {
+  font-style: normal;
+  font-size: 0.83333rem; }
+
 /**
  * partials/nav
  * ---
