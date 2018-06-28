@@ -29,7 +29,7 @@
 		<div class="wrapper">
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class="header clearfix" role="banner">
 
 					<!-- logo -->
 					<div class="logo">
@@ -42,7 +42,7 @@
 
 					<!-- nav -->
 					<nav id="main-nav" class="nav" role="navigation">
-						
+
 					</nav>
 					<!-- /nav -->
 			</header>
@@ -52,10 +52,9 @@
 	    <div id="sidebar" class="sidebar">
 	      <div class="sidebar__inner">
 					<nav class="nav" role="navigation">
-						
+
 					</nav>
 				</div>
 			</div>
 			<div class="wrapper clear">
 			</div>
-		
