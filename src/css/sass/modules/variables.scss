@@ -1,0 +1,49 @@
+/**
+ * modules/variables
+ * ---
+ */
+
+// Make sure you have this in your styles
+// because grid is using paddings
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/**
+ * Typography
+ */
+
+$font-family-base: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+$font-size-base: 140%;
+$line-height-base: 1.5;
+
+
+/**
+ * Colors
+ */
+
+$mainColor: #f8923e;
+$altColor: #0f98f8;
+$title-color: $mainColor;
+$text-color: #303030;
+$body-bg: #fff;
+$alt-bg: #f6f6f6;
+$link-color: $mainColor;
+
+/**
+ * Grid
+ */
+
+$wrapper-width: 1280px;
+
+
+$padding-horizontal-base: 5px;
+$padding-vertical-base: 5px;
+$margin-horizontal-base: 5px;
+$margin-vertical-base: 5px;
+$margin-horizontal-large: 15px;
+$margin-vertical-large: 15px;
+
+

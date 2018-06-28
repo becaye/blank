@@ -1,0 +1,21 @@
+/**
+ * styles.scss
+ * ---
+ * Main sass file.
+ */
+
+// Modules
+@import "modules/variables";
+@import "modules/mixins";
+@import "modules/fonts";
+
+// Partials
+@import "partials/reset";
+@import "partials/main";
+@import "partials/utils";
+@import "partials/layout";
+@import "partials/header";
+@import "partials/nav";
+@import "partials/aside";
+@import "partials/footer";
+@import "partials/print";
