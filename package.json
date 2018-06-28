@@ -1,8 +1,8 @@
 {
   "name": "blank",
-  "description": "Blank template",
+  "description": "Blank start template",
   "license": "MIT",
-  "version": "1.5.0",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/becaye/blank.git"
@@ -12,9 +12,11 @@
     "modernizr": "gulp modernizr"
   },
   "dependencies": {
+    "bootstrap": "^4.1.1",
     "modernizr": "^3.5.0",
     "normalize.css": "^7.0.0",
-    "npm": "^5.6.0"
+    "npm": "^5.6.0",
+    "popper.js": "^1.14.3"
   },
   "devDependencies": {
     "del": "^3.0.0",
